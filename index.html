@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Modern normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav class="main-nav container">
+        <a class="logo" href="#"></a>
+
+        <ul class="nav-list list">
+          <li class="item"><a class="current" href="#">Home</a></li>
+          <li class="item"><a href="#">Blog</a></li>
+          <li class="item"><a href="#">Features</a></li>
+          <li class="item"><a href="#">Pricing</a></li>
+          <li class="item"><a href="#">Documentation</a></li>
+        </ul>
+
+        <ul class="social-media-list list">
+          <li class="item">
+            <a href="#">
+              <svg width="9" height="17">
+                <use xlink:href="images/sprite.svg#facebook-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#"
+              ><svg width="15" height="13">
+                <use xlink:href="images/sprite.svg#telegram-icon"></use></svg
+            ></a>
+          </li>
+          <li class="item">
+            <a href="#"
+              ><svg width="17" height="14">
+                <use xlink:href="images/sprite.svg#twitter-icon"></use></svg
+            ></a>
+          </li>
+          <li class="item">
+            <a href="#"
+              ><svg width="17" height="13">
+                <use xlink:href="images/sprite.svg#medium-icon"></use></svg
+            ></a>
+          </li>
+        </ul>
+
+        <button class="cta-btn" type="button">Get started</button>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="hero">
+        <div class="overlay">
+          <div class="slide fade current-slide">
+            <h5 class="text">PLAN YOUR LIFE</h5>
+            <h1 class="main-heading">
+              Increase your <span class="accent">productivity</span>
+            </h1>
+            <p class="hero-text description">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata.
+            </p>
+            <button class="play-btn" type="button">
+              <svg width="10" height="11">
+                <use xlink:href="images/sprite.svg#play-btn"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="slide fade">
+            <h4 class="text">PLAN YOUR LIFE</h4>
+            <h1 class="main-heading">
+              jshgjahsfgjkahfgjsahfjkhjkshf JAFHJKAHDFKJ
+            </h1>
+            <p class="hero-text description">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata.
+            </p>
+            <button class="play-btn" type="button">
+              <svg width="10" height="11">
+                <use xlink:href="images/sprite.svg#play-btn"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="slide fade">
+            <h4 class="text">PLAN YOUR LIFE</h4>
+            <h1 class="main-heading">
+              Increase your <span class="accent">productivity</span>
+            </h1>
+            <p class="hero-text description">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata.
+            </p>
+            <button class="play-btn" type="button">
+              <svg width="10" height="11">
+                <use xlink:href="images/sprite.svg#play-btn"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="slider-btn">
+            <button
+              class="item slide-btn current-slide-btn"
+              onclick="sliderBtnOnClick(0, 0)"
+            ></button>
+            <button
+              class="item slide-btn"
+              onclick="sliderBtnOnClick(0, 1)"
+            ></button>
+            <button
+              class="item slide-btn"
+              onclick="sliderBtnOnClick(0, 2)"
+            ></button>
+          </div>
+        </div>
+      </section>
+      <section id="customers">
+        <div class="container">
+          <ul class="brands list">
+            <li class="brand item">
+              <a href="#"
+                ><svg width="117" height="29">
+                  <use xlink:href="images/sprite.svg#Bitbucket"></use></svg
+              ></a>
+            </li>
+            <li class="brand item">
+              <a href="#"
+                ><svg width="117" height="25">
+                  <use xlink:href="images/sprite.svg#apple-watch"></use></svg
+              ></a>
+            </li>
+            <li class="brand item">
+              <a href="#"
+                ><svg width="117" height="23">
+                  <use xlink:href="images/sprite.svg#facebook"></use></svg
+              ></a>
+            </li>
+            <li class="brand item">
+              <a href="#"
+                ><svg width="117" height="25">
+                  <use xlink:href="images/sprite.svg#atlassian"></use></svg
+              ></a>
+            </li>
+            <li class="brand item">
+              <a href="#"
+                ><svg width="117" height="29">
+                  <use xlink:href="images/sprite.svg#audi"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="plan-and-manage">
+        <div class="wrapper">
+          <h5 class="text">DESKTOP AND MOBILE APP</h5>
+          <h2 class="heading">
+            <span class="accent">Plan</span> and
+            <span class="accent">manage</span>
+          </h2>
+          <p class="description">
+            Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu
+            atqui laudem an, insolens gubergren similique est cu. Et vel modus
+            congue vituperata. Solum patrioque no sea. Mea ex malis mollis
+            oporteat. Eum an expetenda consequat.
+          </p>
+          <div class="btn-group">
+            <button class="primary-btn" type="button">View video ▶</button
+            ><button class="secondary-btn" type="button">See features</button>
+          </div>
+        </div>
+        <div class="wrapper">
+          <img src="./images/illustration.png" alt="illustration" width="653" />
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="container">
+          <div class="wrapper">
+            <h5 class="text">ABOUT US</h5>
+            <h3 class="title">Read about our app</h3>
+            <ul class="application-list list">
+              <li class="item icon-overview">
+                <!-- <div class="wrapper">
+                  <svg width="14" height="17">
+                    <use xlink:href="./images/sprite.svg#overview-icon"></use>
+                  </svg>
+                </div> -->
+                <h4 class="item-title">Overview</h4>
+                <p class="description">
+                  Brute laoreet efficiendi id his, ea illum nonumes luptatum
+                  pro.
+                </p>
+              </li>
+              <li class="item">
+                <div class="wrapper">
+                  <svg width="23" height="17">
+                    <use xlink:href="./images/sprite.svg#files-icon"></use>
+                  </svg>
+                </div>
+                <h4 class="item-title">Files</h4>
+                <p class="description">
+                  No vim nulla vitae intellegat. Ei enim error ius, solet
+                  atomorum conceptam ex has.
+                </p>
+              </li>
+              <li class="item">
+                <div class="wrapper">
+                  <svg width="18" height="15">
+                    <use xlink:href="./images/sprite.svg#chats-icon"></use>
+                  </svg>
+                </div>
+                <h4 class="item-title">Meeting chats</h4>
+                <p class="description">
+                  Vim ne tacimates neglegentur. Erat diceret omittam at est.
+                </p>
+              </li>
+              <li class="item">
+                <div class="wrapper">
+                  <svg width="18" height="15">
+                    <use xlink:href="./images/sprite.svg#save-icon"></use>
+                  </svg>
+                </div>
+                <h4 class="item-title">Save events</h4>
+                <p class="description">
+                  Nisl idque mel ea, nominati voluptatum.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="primary-btn btn" type="button">Read more</button>
+            <span class="middle">OR</span>
+            <button class="secondary-btn btn" type="button">Get started</button>
+          </div>
+        </div>
+      </section>
+      <section id="advantages">
+        <div class="wrapper first-part">
+          <svg class="icon" width="65" height="65">
+            <use xlink:href="./images/sprite.svg#productivity"></use>
+          </svg>
+          <h4 class="section-title">89%</h4>
+          <p class="description">
+            Customers who have<br />
+            increased their productivity
+          </p>
+        </div>
+        <div class="wrapper second-part">
+          <svg class="icon" width="65" height="65">
+            <use xlink:href="./images/sprite.svg#users"></use>
+          </svg>
+          <h4 class="section-title">3123</h4>
+          <p class="description">
+            Users who have used our<br />
+            application
+          </p>
+        </div>
+      </section>
+      <section id="blog">
+        <div class="container">
+          <h5 class="text">OUR RESOURCES</h5>
+          <h3 class="title">Start reading our blog</h3>
+          <div class="slider">
+            <div class="slide current-slide">
+              <div class="wrapper grid">
+                <img
+                  class="grid-item"
+                  src="./images/desktop.jpg"
+                  alt="destop"
+                  height="267"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/working.jpg"
+                  alt="a working man"
+                  height="127"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/discussion.jpg"
+                  alt="discussion"
+                  height="127"
+                />
+              </div>
+              <div class="text-wrapper">
+                <h2 class="heading">How to start planning</h2>
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti. Natum petentium principes mei ea. Tota everti
+                  periculis vis ei, quas tibique pro at, eos ut decore ...
+                </p>
+                <div class="btn-group">
+                  <button class="cta-btn">Read now</button>
+                  <button class="btn">Add to your bookmarks</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="wrapper grid">
+                <img
+                  class="grid-item"
+                  src="./images/desktop.jpg"
+                  alt="destop"
+                  height="267"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/working.jpg"
+                  alt="a working man"
+                  height="127"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/discussion.jpg"
+                  alt="discussion"
+                  height="127"
+                />
+              </div>
+              <div class="text-wrapper">
+                <h2 class="heading">Slide 2</h2>
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti. Natum petentium principes mei ea. Tota everti
+                  periculis vis ei, quas tibique pro at, eos ut decore ...
+                </p>
+                <div class="btn-group">
+                  <button class="cta-btn">Read now</button>
+                  <button class="btn">Add to your bookmarks</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="wrapper grid">
+                <img
+                  class="grid-item"
+                  src="./images/desktop.jpg"
+                  alt="destop"
+                  height="267"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/working.jpg"
+                  alt="a working man"
+                  height="127"
+                />
+                <img
+                  class="grid-item"
+                  src="./images/discussion.jpg"
+                  alt="discussion"
+                  height="127"
+                />
+              </div>
+              <div class="text-wrapper">
+                <h2 class="heading">Slide 3</h2>
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti. Natum petentium principes mei ea. Tota everti
+                  periculis vis ei, quas tibique pro at, eos ut decore ...
+                </p>
+                <div class="btn-group">
+                  <button class="cta-btn">Read now</button>
+                  <button class="btn">Add to your bookmarks</button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-btn">
+              <button
+                class="item slide-btn current-slide-btn"
+                onclick="sliderBtnOnClick(1, 0)"
+              ></button>
+              <button
+                class="item slide-btn"
+                onclick="sliderBtnOnClick(1, 1)"
+              ></button>
+              <button
+                class="item slide-btn"
+                onclick="sliderBtnOnClick(1, 2)"
+              ></button>
+            </div>
+          </div>
+          <div class="slider-arrows">
+            <button class="left-arrow arrow" onclick="nextOrPrevSlide(1, -1)">
+              ⟵
+            </button>
+            <button class="right-arrow arrow" onclick="nextOrPrevSlide(1, 1)">
+              ⟶
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="quotes">
+        <div class="container">
+          <div class="text-wrapper">
+            <h4 class="text">TESTIMONIALS</h4>
+            <h2 class="heading">Customers's quotes</h2>
+            <p class="description">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an.
+            </p>
+          </div>
+          <div class="wrapper">
+            <div class="slider">
+              <div class="slides">
+                <div class="slide current-slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">
+                      Quidam vocibus eum ne, erat consectetuer voluptatibus ut
+                      nam. Eu usu vidit tractatos, vero tractatos ius an, in mel
+                      diceret persecuti.
+                    </p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide next-slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 2</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 3</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 4</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 5</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 6</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 7</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 7</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 8</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+                <div class="slide">
+                  <div class="quote-wrapper">
+                    <p class="quote">slide 9</p>
+                  </div>
+                  <img
+                    class="avatar"
+                    src="./images/avatar.png"
+                    alt="avatar"
+                    width="62"
+                  />
+                </div>
+              </div>
+              <div class="slider-btn">
+                <button
+                  class="item slide-btn current-slide-btn"
+                  onclick="sliderBtnOnClick(2, 0), nextSlideStyle(1)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 1), nextSlideStyle(2)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 2), nextSlideStyle(3)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 3), nextSlideStyle(4)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 4), nextSlideStyle(5)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 5), nextSlideStyle(6)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 6), nextSlideStyle(7)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 7), nextSlideStyle(8)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 8), nextSlideStyle(9)"
+                ></button>
+                <button
+                  class="item slide-btn"
+                  onclick="sliderBtnOnClick(2, 9), nextSlideStyle(0)"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="questions">
+        <div class="container">
+          <h4 class="text">Customer help</h4>
+          <h3 class="title">Frequently asked questions</h3>
+          <ul class="questions-list list">
+            <li class="item active">
+              <h4 class="item-title">
+                <button
+                  class="collapse-btn"
+                  type="button"
+                  onclick="accordiation(0)"
+                >
+                  Reque insolens in vel?
+                </button>
+              </h4>
+              <div class="text-wrapper">
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti.
+                </p>
+                <button class="text-btn" type="button">
+                  Go to documentation
+                </button>
+              </div>
+            </li>
+            <li class="item">
+              <h4 class="item-title">
+                <button
+                  class="collapse-btn"
+                  type="button"
+                  onclick="accordiation(1)"
+                >
+                  Vis rebum error graecis ea, id sit postea accusamus?
+                </button>
+              </h4>
+              <div class="text-wrapper">
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti.
+                </p>
+                <button class="text-btn" type="button">
+                  Go to documentation
+                </button>
+              </div>
+            </li>
+            <li class="item">
+              <h4 class="item-title">
+                <button
+                  class="collapse-btn"
+                  type="button"
+                  onclick="accordiation(2)"
+                >
+                  Lorem repudiandae ne nec?
+                </button>
+              </h4>
+              <div class="text-wrapper">
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti.
+                </p>
+                <button class="text-btn" type="button">
+                  Go to documentation
+                </button>
+              </div>
+            </li>
+            <li class="item">
+              <h4 class="item-title">
+                <button
+                  class="collapse-btn"
+                  type="button"
+                  onclick="accordiation(3)"
+                >
+                  Ad dicit numquam vel. Et eos iudico feugait percipitur?
+                </button>
+              </h4>
+              <div class="text-wrapper">
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti.
+                </p>
+                <button class="text-btn" type="button">
+                  Go to documentation
+                </button>
+              </div>
+            </li>
+            <li class="item">
+              <h4 class="item-title">
+                <button
+                  class="collapse-btn"
+                  type="button"
+                  onclick="accordiation(4)"
+                >
+                  Sea no dico percipitur. Fierent constituam definitiones id
+                  eum?
+                </button>
+              </h4>
+              <div class="text-wrapper">
+                <p class="description">
+                  Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                  Eu usu vidit tractatos, vero tractatos ius an, in mel diceret
+                  persecuti.
+                </p>
+                <button class="text-btn" type="button">
+                  Go to documentation
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="get-started">
+        <div class="overlay">
+          <div class="container">
+            <h4 class="text">PLAN YOUR LIFE</h4>
+            <h2 class="heading">Get <span class="accent">started</span> now</h2>
+            <p class="description">
+              Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+              Usu atqui laudem an, insolens gubergren similique est cu. Et vel
+              modus congue vituperata.
+            </p>
+            <div class="btn-group">
+              <button class="primary-btn btn" type="button">View pricing</button
+              ><button class="secondary-btn btn" type="button">
+                Read documentation
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="form">
+        <div class="container">
+          <div class="text-wrapper">
+            <h3 class="title">Sign up for newsletter</h3>
+            <p class="description">
+              Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero
+              alterum.
+            </p>
+          </div>
+          <div class="email-wrapper">
+            <label class="input-wrapper">
+              <input type="email" placeholder="Email address" />
+              <button id="save-btn" type="submit">Save me</button>
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="main-footer">
+      <div class="container">
+        <nav class="main-nav">
+          <a class="logo" href="#"></a>
+
+          <ul class="nav-list list">
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Blog</a></li>
+            <li class="item"><a href="#">Features</a></li>
+            <li class="item"><a href="#">Pricing</a></li>
+            <li class="item"><a href="#">Documentation</a></li>
+          </ul>
+
+          <ul class="social-media-list list">
+            <li class="item">
+              <a href="#">
+                <svg width="9" height="17">
+                  <use xlink:href="images/sprite.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#"
+                ><svg width="15" height="13">
+                  <use xlink:href="images/sprite.svg#telegram-icon"></use></svg
+              ></a>
+            </li>
+            <li class="item">
+              <a href="#"
+                ><svg width="17" height="14">
+                  <use xlink:href="images/sprite.svg#twitter-icon"></use></svg
+              ></a>
+            </li>
+            <li class="item">
+              <a href="#"
+                ><svg width="17" height="13">
+                  <use xlink:href="images/sprite.svg#medium-icon"></use></svg
+              ></a>
+            </li>
+          </ul>
+
+          <button class="cta-btn" type="button">Get started</button>
+        </nav>
+        <p id="copyright">Copyright © 2018 By Random Site</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
