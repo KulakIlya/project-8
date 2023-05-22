@@ -435,7 +435,7 @@ button {
   border-radius: 50%;
 }
 
-.application-list .item::before {
+/* .application-list .item::before {
   padding: 26px;
   margin: 0 auto;
 
@@ -446,7 +446,7 @@ button {
   height: 69px;
 
   border-radius: 50%;
-}
+} */
 /* 
 .application-list .icon-overview::before {
   height: 14px;
