@@ -1,7 +1,7 @@
 :root {
-  --main-font-family: "Quicksand", sans-serif;
-  --secondary-font-family: "Roboto", sans-serif;
-  --third-font-family: "Open Sans", sans-serif;
+  --main-font-family: 'Quicksand', sans-serif;
+  --secondary-font-family: 'Roboto', sans-serif;
+  --third-font-family: 'Open Sans', sans-serif;
 
   --primary-color: #697ca6;
   --secondary-color: #5e81fe;
@@ -260,12 +260,12 @@ button {
 }
 
 #hero .slide:nth-child(1) {
-  background-image: url("/images/text-and-illustration.svg");
+  background-image: url('/images/text-and-illustration.svg');
 }
 
 #hero .slide:nth-child(2),
 #hero .slide:nth-child(3) {
-  background-image: url("/images/giga-chad.jpg");
+  background-image: url('/images/giga-chad.jpg');
 }
 
 #hero .slider-btn {
@@ -440,23 +440,23 @@ button {
   margin: 0 auto;
 
   display: block;
-  content: "";
+  content: '';
 
   width: 69px;
   height: 69px;
 
   border-radius: 50%;
 }
-
+/* 
 .application-list .icon-overview::before {
-  /* height: 14px; */
+  height: 14px;
   background-color: #f1f5ff;
 
   background-image: url("../images/overview-icon.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 #about-us .btn-group {
   margin-top: 92px;
@@ -777,7 +777,7 @@ button {
 }
 
 .questions-list .collapse-btn::before {
-  content: "";
+  content: '';
 
   margin-right: 24px;
   display: inline-block;
@@ -786,7 +786,7 @@ button {
 
   vertical-align: middle;
 
-  background-image: url("/images/collapse-arrow.svg");
+  background-image: url('/images/collapse-arrow.svg');
   background-repeat: no-repeat;
   background-size: 18px 11px;
 
@@ -796,7 +796,7 @@ button {
 .questions-list .active .collapse-btn::before {
   transform: rotate(180deg);
 
-  background-image: url("/images/collapse-arrow-inverse.svg");
+  background-image: url('/images/collapse-arrow-inverse.svg');
 }
 
 .questions-list .text-wrapper {
@@ -929,7 +929,7 @@ button {
   color: var(--fifth-color);
 }
 
-#form .input-wrapper input[type="email"] {
+#form .input-wrapper input[type='email'] {
   margin-right: 14px;
   padding: 21px 23px;
   min-width: 280px;
