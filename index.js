@@ -21,7 +21,6 @@ function nextOrPrevSlide(sliderIndex, n) {
 
 function sliderBtnOnClick(sliderIndex, slideIndex) {
   const slider = document.querySelectorAll('.slider')[sliderIndex];
-  console.log(slider);
 
   const sliderBtn = slider.querySelector('.slider-btn');
 

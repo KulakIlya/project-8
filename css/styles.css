@@ -261,11 +261,13 @@ button {
 
 #hero .slide:nth-child(1) {
   background-image: url('../images/text-and-illustration.svg');
+  background-size: cover;
 }
 
 #hero .slide:nth-child(2),
 #hero .slide:nth-child(3) {
   background-image: url('../images/giga-chad.jpg');
+  background-size: cover;
 }
 
 #hero .slider-btn {
