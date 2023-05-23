@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --main-font-family: 'Quicksand', sans-serif;
   --secondary-font-family: 'Roboto', sans-serif;
