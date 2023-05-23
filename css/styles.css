@@ -260,12 +260,12 @@ button {
 }
 
 #hero .slide:nth-child(1) {
-  background-image: url('/images/text-and-illustration.svg');
+  background-image: url('../images/text-and-illustration.svg');
 }
 
 #hero .slide:nth-child(2),
 #hero .slide:nth-child(3) {
-  background-image: url('/images/giga-chad.jpg');
+  background-image: url('../images/giga-chad.jpg');
 }
 
 #hero .slider-btn {
@@ -401,7 +401,7 @@ button {
 #about-us .container {
   text-align: center;
 
-  background-image: url(/images/clouds.png);
+  background-image: url(../images/clouds.png);
   background-size: cover;
 }
 
@@ -434,29 +434,6 @@ button {
 
   border-radius: 50%;
 }
-
-/* .application-list .item::before {
-  padding: 26px;
-  margin: 0 auto;
-
-  display: block;
-  content: '';
-
-  width: 69px;
-  height: 69px;
-
-  border-radius: 50%;
-} */
-/* 
-.application-list .icon-overview::before {
-  height: 14px;
-  background-color: #f1f5ff;
-
-  background-image: url("../images/overview-icon.svg");
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 #about-us .btn-group {
   margin-top: 92px;
@@ -786,7 +763,7 @@ button {
 
   vertical-align: middle;
 
-  background-image: url('/images/collapse-arrow.svg');
+  background-image: url('../images/collapse-arrow.svg');
   background-repeat: no-repeat;
   background-size: 18px 11px;
 
@@ -796,7 +773,7 @@ button {
 .questions-list .active .collapse-btn::before {
   transform: rotate(180deg);
 
-  background-image: url('/images/collapse-arrow-inverse.svg');
+  background-image: url('../images/collapse-arrow-inverse.svg');
 }
 
 .questions-list .text-wrapper {
@@ -847,8 +824,8 @@ button {
 #get-started .overlay {
   padding-top: 91px;
   padding-bottom: 91px;
-  max-width: 1600px;
-  background-image: url(/images/get-started-bg.png),
+
+  background-image: url(../images/get-started-bg.png),
     linear-gradient(229.32deg, #6888ff 12.77%, #5e80ff 73.11%);
   background-size: cover;
 }
@@ -956,6 +933,13 @@ button {
 
   box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
   border-radius: 5px;
+}
+
+/* Footer */
+
+#main-footer {
+  padding-top: 93px;
+  padding-bottom: 93px;
 }
 
 #copyright {
